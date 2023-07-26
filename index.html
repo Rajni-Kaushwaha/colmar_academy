@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>ColmarAcademy</title>
+    <style>
+      *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#thesis h1 {
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+}
+
+#thesis h3 {
+  font-size: 1.5rem;
+}
+
+#thesis h4 {
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+.holder-thesis {
+  width: 100%;
+  display: flex;
+}
+
+.holder-vid {
+  height: auto;
+  width: 100%;
+  padding-left: 24px;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+.holder-thesis-txt {
+  margin: 24px 0 32px 24px;
+}
+
+.holder-thesis-txt p {
+  margin-top: 16px;
+}
+
+.holder-thesis-info {
+  min-width: 423px;
+  margin-left: 16px;
+}
+
+.thesis-info-single {
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+}
+
+.holder-thesis-img {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.thesis-img {
+  width: 100%;
+  height: auto;
+}
+
+.thesis-info-txt {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+/*----------------button css---------------------------------*/
+.btn1{
+    height: 45px;
+    width: 150px;
+    border: none;
+    outline: none;
+    background-color: rgb(230, 137, 31);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgb(170, 47, 84);
+    transition: 0.5s;
+}
+
+    </style>
+  </head>
+  <body>
+    <!---------------start navbar------------------------------>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top ">
+      <a class="navbar-brand" href="#">
+         <p class="font-italic text-danger"><img src="image/ic-logo.svg"><strong>ColmarAcademy</strong></p>
+      </a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="about.html">About Us</a>
+            <a class="nav-item nav-link" href="#footer">contactus</a>
+          </div>
+        </div>
+      </nav>
+      <!------------------------start slides------------------------------->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="image/slide4.webp" alt="First slide" style="height: 300px;">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="image/slide2.jpg" alt="Second slide" style="height: 300px;">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="image/slide3.jpg" alt="Third slide" style="height: 300px;">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <br>
+      <!--------------------------------------information-------------------------------------------->
+      <section><div class="row text-align-middle mt-3 pt-3 pb-3">
+        <div class="col-lg-7 d-none d-md-block">
+          <img src="image/slide2.jpg" alt="man reading book" class="w-100">
+          <h3 class="mt-3 mb-3 font-weight-bold">It doesn't hurt to keep practicing</h3>
+          <p>“Morbi massa eros, tincidunt eu ullamcorper quis, suscipit eu magna. Quisque egestas venenatis 
+            tempus. Nam vulputate nulla sed nisl suscipit ornare. Nunc ut mi et leo tincidunt tempus ut 
+            volutpat tortor. Donec eu posuere eros, non congue turpis.”</p>
+            <p><strong> Sr. Computerman at Computersdotcom.com, Colmar Academy graduate</strong></p>
+        </div>
+        <div class="col-md-5 col-12">
+          <div class="row mt-md-1 mb-md-1 hover">
+            <div class="col-12 col-md-4 card_img">
+              <img src="image/information-orientation.jpg" alt="drone view of people walking on a village road"class="w-100 my-md-2 mt-2 card_img">
+            </div>
+
+          <div class="col-md-8 col-12 mb-3">
+          <h4 class="font-weight-bold mt-2">Orientation date</h4>
+          <p class="mb-2"> Tuesday & Wednesday :8:am 12:30pm</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+
+        <div class="row mt-md-1 mb-md-1 hover">
+          <div class="col-12 col-md-4 card_img">
+            <img src="image/information-campus.jpg" alt="room with big map of africa"class="w-100 my-md-2 mt-2 card_img">
+          </div>
+
+        <div class="col-md-8 col-12 mb-3">
+        <h4 class="font-weight-bold mt-2">Our campus</h4>
+        <p class="mb-2">Find which campus is close by you</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+
+      <div class="row mt-md-1 mb-md-1 hover">
+        <div class="col-12 col-md-4 card_img">
+          <img src="image/information-guest-lecture.jpg" alt="room with big map of africa"class="w-100 my-md-2 mt-2 card_img">
+        </div>
+
+      <div class="col-md-8 col-12 mb-3">
+      <h4 class="font-weight-bold mt-2">Our guest lecture</h4>
+      <p class="mb-2">Join a keynote with Oliver Sack about music in medical treatment</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    </div>
+  </section>
+      <!------------------------learn new thing---------------------------------------------------->
+      <section id="product">
+        <div class="container">
+            <!--<div class="row">-->
+                <div class="col-lg-5 m-auto text-center">
+                    <h1>courses offer </h1>
+                    <h4 style="color: red;">Learn something new everyday</h4>
+                  </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                 <div class="card border-0 bg-light mb-2">
+                    <div class="card-body">
+                        <img src="image/1.jpg" class="img-fluid" style="height: 290px;">
+                    </div>
+                 </div>
+                 <h6>Basic C and C++</h6>
+                 <p>The C++ Programming Language: Learn and Master C++</p>
+                  <p>Master the C++ programming language from the ground up! 50 hands-on coding exercises, 7 quizzes, 8 hours of content
+                  Rating:</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                       <div class="card-body">
+                           <img src="image/2.jpg" class="img-fluid" style="height: 290px;">
+                       </div>
+                    </div>
+                    <h6>python</h6>
+                    <p>100 Days of Code: The Complete Python Pro Bootcamp for 2023</p>
+                     <p> Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!
+                      </p>
+                   </div>
+                   <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                       <div class="card-body">
+                           <img src="image/3.jpg" class="img-fluid"style="height: 290px;">
+                       </div>
+                    </div>
+                    <h6>web development</h6>
+                    <p>The Complete 2023 Web Development Bootcamp</p>
+                     <p>Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, MongoDB, Web3 and DApps
+                      </p>
+                       </div>
+                   <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                       <div class="card-body">
+                           <img src="image/4.png" class="img-fluid" style="height: 290px;">
+                       </div>
+                    </div>
+                    <h6>full stack developer</h6>
+                    <p>Full-Stack Web Development For Beginners</p>
+                     <p> Learn Frontend and Backend Web Development Using: HTML, CSS, JAVASCRIPT,SQL,POSTGRESQL,REACT,RESTful APIs
+                      </p>
+                   </div>
+                  </div>
+                   </div>
+                   </section><br><br>
+                   <!----------------------------thesis exhibits--------------------------------------->
+                   <section id="thesis">
+                    <h1>Thesis exhibits</h1>
+              
+                    <div class="holder-thesis">
+                      <div class="holder-thesis-vid">
+                        <div class="holder-vid">
+                          <video src="./vid/thesis.mp4" controls></video>
+                        </div>
+                        <div class="holder-thesis-txt">
+                          <h3>Reimagine urban</h3>
+                          <p>
+                            Etiam fermentum nisi ipsum, vel lobortis turpis hendrerit
+                            interdum. Vivamus venenatis est in lacus efficitur pellentesque.
+                            Suspendisse ac urna velit. Mauris feugiat, lectus eu efficitur
+                            laoreet, ante quam bibendum ligula, quis venenatis mi urna eu
+                            quam. Maecenas sed elementum massa, non ultrices ex. Sed egestas
+                            sed velit sed hendrerit.
+                          </p>
+                        </div>
+                      </div>
+              
+                      <div class="holder-thesis-info">
+                        <div class="thesis-info-single">
+                          <div class="holder-thesis-img">
+                            <img src="image/thesis-fisma.jpg" alt="" class="thesis-img" />
+                          </div>
+                          <div class="thesis-info-txt">
+                            <h3>Fisma: Design and</h3>
+                            <h4>Designer showcase of new prototype product</h4>
+                          </div>
+                        </div>
+                        <div class="thesis-info-single">
+                          <div class="holder-thesis-img">
+                            <img
+                              src="image/thesis-now-and-then.jpg"
+                              alt=""
+                              class="thesis-img"
+                            />
+                          </div>
+                          <div class="thesis-info-txt">
+                            <h3>Now and then</h3>
+                            <h4>Research study about New York</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+              
+
+                  <!------------------------------footer--------------------------------------------->
+                  <section id="footer">
+                   <div class="card text-center text-white bg-dark">
+                    <div class="card-body">
+                  
+                      <h1 class="card-title" style="color: crimson;">Visitng Our Learning New Thing Platform</h1>
+                      <p class="card-text">Online professional development courses offer an opportunity to hone your existing skills and pick up new ones as you grow in your career.</p>
+                         <h4>Follow Us</h4>
+                      <a href="https://github.com/codesciousness/colmar-academy">Github</a><br>
+                      <a href="https://www.youtube.com/watch?v=xnaxR9tbYws">Youtube</a><br>
+                      <a href="https://au.linkedin.com/in/jackiecolmar">Linkdln</a><br>
+                      <div class="row">
+                        <div class="col-lg-7 m-auto text-center">
+                          <a href="https://academycolmar.netlify.app/"><button class="btn1 ">More Info</button></a>
+                        </div>
+                    </div>
+                     </div>
+                     </div>
+                    </section>
+                     
+                  
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
